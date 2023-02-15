@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/calculadora.css">
+    <title>Carnaval</title>
+</head>
+<body>
+       
+        <div id="top">
+                <hr class="border border-primary border-2 opacity-50">
+            <div id="titleIndex">
+                <h1>Calculadora</h1>
+            </div>
+            <hr class="border border-primary border-2 opacity-75">
+        </div>
+        
+        
+        <ul class="nav" id="navbar">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/html/hist.html">História</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/calculadora.html">Calculadora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/html/dicas.html">Dicas</a>
+            </li>
+          </ul>
+        
+
+        <div id="calcPegar">
+          <p>Quantas pessoas você provavelmente vai pegar?</p>
+          <p>Insira sua idade:</p>
+          <input type="number" id="idade">
+          <p>Insira o número de pessoas do local (por metro quadrado):</p>
+          <input type="number" id="pessoas">
+          <input type="button" value="Calcular" onclick="Pegar()">
+          <p>Resultado:</p>
+          <input type="number" id="resultPegar" readonly >
+          <input type="button" value="Limpar" onclick="LimpPegar()">
+        </div>
+
+        <div id="calcDoença">
+          <p>Qual a chance de você contrair uma doença?</p>
+          <p>Insira o número de pessoas do local (por metro quadrado):</p>
+          <input type="number" id="pessoasD">
+          <input type="button" value="Calcular" onclick="Doença()">
+          <p>Resultado:</p>
+          <input type="number" id="resultDoença" readonly >
+          <input type="button" value="Limpar" onclick="LimpDoença()">
+        </div>
+        
+
+</body>
+<script src="/js/calc.js"></script>
+</html>

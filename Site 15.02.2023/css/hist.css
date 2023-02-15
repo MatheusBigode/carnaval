@@ -1,0 +1,50 @@
+body{
+    background-color: #374475;
+}
+
+#top{
+    background-color: #142775;
+}
+
+#titleIndex {
+    margin: 2rem;
+    margin-left: 4rem;
+    background-color: #142775;
+    padding: 50px;
+    color: white;
+}
+
+#navbar{
+    background-color: 142775;
+}
+
+#divIntro{
+    margin: 10rem;
+    padding: 5rem;
+    border: 2px solid #142775;
+    border-radius: 15px;
+    background-color: #142775;
+}
+
+#historia {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+#historia{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin: 10rem;
+    padding: 5rem;
+    border: 2px solid #142775;
+    border-radius: 15px;
+    background-color: #142775;
+}
+
+#footerIndex{
+    text-decoration: none;
+}
+
